@@ -1,0 +1,718 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #1082CD;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header img {
+    width: 60px;
+}
+
+header a {
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+header a:hover {
+    color: #d0e8f7;
+}
+
+.hero-section {
+    background-color: white;
+    padding: 20px 0 80px;
+}
+
+.hero-section img {
+    margin-top: -70px;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 4rem;
+    color: #04426b;
+}
+
+.hero-pera {
+    font-size: 20px;
+    color: #055184;
+}
+
+.info-section {
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    padding: 45px 30px;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(57, 165, 192, 0.25);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #1082CD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.info-item h6 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #334155;
+}
+
+
+.info-item p {
+    margin: 0;
+    color: #9ca3af;
+    font-size: 18px;
+}
+
+.about-section {
+    background-color: #1082CD;
+    padding: 300px 0 150px;
+    margin-top: -80px;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about-section .container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about-section h2 {
+    color: #04426b;
+    font-size: 42px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.about-section p {
+    color: #055184;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.about-features {
+    padding-left: 30px;
+}
+
+.feature-box {
+    background: #1082CD;
+    padding: 22px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature-icon {
+    width: 55px;
+    height: 55px;
+    background: white;
+    color: #1082CD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.feature-box h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.feature-box p {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+}
+
+.services-section {
+    padding: 100px 0;
+}
+
+.services-title h1 {
+    color: #04426b;
+    margin: 5px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.services-title p {
+    color: #055184;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.card-col {
+    margin: 15px 0;
+}
+
+.service-card {
+    background: #1082CD;
+    color: white;
+    padding: 35px 30px;
+    border-radius: 18px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(2, 105, 142, 0.4);
+}
+
+.service-icon {
+    background: #e5f3ff;
+    color: #287dbd;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.service-card h4 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: rgb(241, 239, 239);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0b4d79;
+    color: white;
+    padding: 10px 0;
+}
+
+.social-icons {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: white;
+}
+
+/* Form Start Here*/
+
+.form-hero-section {
+    background-color: white;
+    padding: 40px 0 0;
+}
+
+.form-hero-section img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.form-hero-title {
+    font-size: 3rem;
+    color: #04426b;
+}
+
+.form-hero-pera {
+    font-size: 18px;
+    color: #055184;
+}
+
+.contact-section {
+    background-color: #1082CD;
+    padding: 100px 0;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact-box label {
+    color: #04426b;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0 10px 10px;
+}
+
+.contact-box .form-control {
+    border-radius: 15px;
+    padding: 14px 16px;
+}
+
+.contact-btn {
+    background-color: #1082CD;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.contact-btn:hover {
+    background-color: #04426b;
+}
+
+/* Hospitals Start Here*/
+
+.hospital-section {
+    padding: 20px 0 60px;
+}
+
+.hospital-section img {
+    width: 100%;
+}
+
+.hospital-section-title {
+    font-size: 4rem;
+    color: #04426b;
+}
+
+.hospital-section-pera {
+    font-size: 20px;
+    color: #055184;
+}
+
+.find-hospital-section {
+    background-color: #3597d9;
+    padding: 80px 0 50px;
+}
+
+.hospital-card {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.card-contant {
+    padding: 5px 30px 30px;
+}
+
+.hospital-img img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.hospital-card h3 {
+    color: #04426b;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0 10px;
+}
+
+.hospital-card .pera {
+    color: #055184;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.hospital-info p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.hospital-info i {
+    color: #1082CD;
+    margin-right: 7px;
+}
+
+/* Doctors Start Here*/
+
+.doctor-hero-section {
+    background-color: white;
+    padding: 40px 0 0;
+}
+
+.doctor-hero-section img {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.doctor-hero-title {
+    font-size: 3rem;
+    color: #04426b;
+}
+
+.doctor-hero-pera {
+    font-size: 18px;
+    color: #055184;
+}
+
+.find-doctor-section {
+    background-color: #3597d9;
+    padding: 400px 0 50px;
+}
+
+.doctor-card {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 350px;
+}
+
+.doctor-img img {
+    width: 100%;
+    margin-top: -300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.doctor-card-contant {
+    padding: 10px 30px 20px;
+}
+
+.doctor-card-contant h3 {
+    color: #04426b;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.doctor-card-contant h4 {
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.doctor-card-contant p {
+    color: #055184;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+
+
+/* LG Sizes*/
+
+@media (max-width: 1200px) {
+
+    .hero-section {
+        padding: 20px 0 0;
+    }
+
+    .hero-section img {
+        width: 95%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+/* MD Sizes*/
+
+@media (max-width: 991px) {
+    header {
+        padding: 5px 0;
+    }
+
+    .logo {
+        display: inline;
+        text-align: center;
+    }
+
+    header img {
+        width: 70px;
+    }
+
+    .hero-section {
+        padding: 20px 0 0;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .info-section {
+        padding: 20px 30px;
+        margin-top: 60px;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
+
+    .about-section {
+        padding: 170px 0 80px;
+        margin-top: -100px;
+    }
+
+    .about-us {
+        font-size: 50px;
+    }
+
+    .about-section .container {
+        border-radius: 20px;
+    }
+
+    .about-section h2 {
+        font-size: 33px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-section {
+        padding: 50px 0;
+    }
+
+    .services-title h1 {
+        margin: 5px 0;
+        font-size: 45px;
+    }
+
+    /* Form Start Here*/
+
+    .form-hero-section img {
+        margin-top: 0px;
+    }
+
+    .form-hero-title {
+        display: none;
+    }
+
+    .form-hero-pera {
+        display: none;
+    }
+
+    /* Hospitals Start Here*/
+
+    .hospital-section img {
+        display: none;
+    }
+
+    .hospital-section {
+        padding: 120px 0;
+    }
+
+    .hospital-section-title {
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hospital-section-pera {
+        font-size: 19px;
+    }
+
+    /* Doctors Start Here*/
+
+    .doctor-hero-title {
+        display: none;
+    }
+
+    .doctor-hero-pera {
+        display: none;
+    }
+
+    .doctor-hero-section img {
+        margin-top: 0;
+    }
+
+
+}
+
+/* SM Sizes*/
+
+@media (max-width: 767px) {
+    header a {
+        margin-left: 3px;
+    }
+
+    .hero-section {
+        padding: 0;
+    }
+
+    .hero-section img {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .hero-pera {
+        font-size: 15px;
+    }
+
+    /* Hospitals Start Here*/
+
+    .hospital-section {
+        padding: 90px 0;
+    }
+
+    .hospital-section-title {
+        font-size: 3.2rem;
+    }
+
+    .hospital-section-pera {
+        font-size: 17px;
+    }
+
+    .hospital-card {
+        margin-bottom: 50px;
+    }
+}
+
+/* Mobile Sizes*/
+
+@media (max-width: 576px) {
+
+    .nav-links {
+        text-align: center;
+    }
+
+    .hero-section img {
+        width: 70%;
+    }
+
+    .about-section {
+        padding: 210px 0 50px;
+        margin-top: -150px;
+    }
+
+    .about-us {
+        font-size: 50px;
+    }
+
+    .about-section h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about-section p {
+        line-height: 1.6;
+        padding-left: 10px;
+    }
+
+    .about-features {
+        padding-left: 10px;
+    }
+
+    .feature-box {
+        padding: 20px;
+    }
+
+    .feature-box p {
+        margin-left: -10px;
+    }
+
+    .services-title h1 {
+        font-size: 43px;
+    }
+
+    .services-title p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .service-card {
+        padding: 10px 30px;
+
+    }
+
+    .service-icon {
+        margin-top: 10px;
+    }
+
+    .service-card h4 {
+        margin-bottom: 10px;
+    }
+
+    .service-card p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    /* Form Start Here*/
+
+    .form-hero-section img {
+        margin-top: 20px;
+    }
+
+    .contact-section {
+        padding: 80px 0;
+    }
+
+    .contact-box {
+        padding: 10px;
+    }
+
+    .contact-box .form-control {
+        padding: 10px 16px;
+    }
+
+    .contact-btn {
+        background-color: #1082CD;
+        border: none;
+        margin-top: 10px;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 25px;
+    }
+
+    .contact-btn:hover {
+        background-color: #04426b;
+    }
+
+}
